@@ -200,7 +200,8 @@
     margin-top: -1.5625rem; }
   .block2__arrow {
     width: 2.91667vw;
-    height: auto; }
+    height: auto;
+    max-height: 1.2rem }
     .block2__arrow svg {
       width: 100%;
       height: auto;
@@ -413,7 +414,9 @@
       display: block;
       width: 3.375rem;
       height: 2px;
-      margin-bottom: 2.125rem; }
+      margin-bottom: 2.125rem; 
+      background-color: #dfb471;
+      border: none;}
     .block3__text p {
       margin: 0;
       font-size: 1.125rem;
