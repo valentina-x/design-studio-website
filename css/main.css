@@ -312,17 +312,14 @@
       -webkit-transition: all 0.6s;
       -o-transition: all 0.6s;
       -moz-transition: all 0.6s;
-      transition: all 0.6s; }
+      transition: all 0.6s;
+      max-height: inherit; }
       .block2__arrow:hover {
         background-color: #131313; }
       .block2__arrow--prev {
         left: 2.08333vw; }
-        .block2__arrow--prev svg {
-          margin-left: -5px; }
       .block2__arrow--next {
         right: 2.08333vw; }
-        .block2__arrow--next svg {
-          margin-right: -5px; }
       .block2__arrow--mb {
         display: -webkit-box;
         display: -webkit-flex;
@@ -330,7 +327,7 @@
         display: -ms-flexbox;
         display: flex; }
         .block2__arrow--mb svg {
-          width: 1.25rem;
+          width: auto;
           height: auto;
           max-height: 0.9375rem; } }
   @media screen and (max-width: 480px) {
