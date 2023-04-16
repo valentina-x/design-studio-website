@@ -497,9 +497,6 @@
        -moz-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
     margin: 0 auto; }
   .block4__card {
     width: 100%;
@@ -543,7 +540,10 @@
               box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.6); }
   @media screen and (max-width: 1080px) {
     .block4__wrapper {
-      max-width: 34.375rem; }
+      max-width: 34.375rem; 
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;}
     .block4__card {
       max-width: 100%;
       margin-bottom: 5.625rem; } }
@@ -705,7 +705,7 @@
     pointer-events: none; }
   .block6__wrapper {
     max-width: 80.0625rem;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     display: -webkit-box;
     display: -webkit-flex;
